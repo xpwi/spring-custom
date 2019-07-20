@@ -1,0 +1,1 @@
+package com.xiaopengwei.xspring.annotation;import java.lang.annotation.*;/** * <p> * * @author XiaoPengwei * @since 2019-07-19 */@Target({ElementType.FIELD})@Retention(RetentionPolicy.RUNTIME)@Documentedpublic @interface XAutowired {    String value() default "";}
